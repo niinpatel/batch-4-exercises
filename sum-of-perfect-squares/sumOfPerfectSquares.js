@@ -1,8 +1,3 @@
+function sumOfPerfectSquares() {}
 
-function sumOfPerfectSquares(...args) {
-  return args;
-}
-
-export {
-  sumOfPerfectSquares,
-};
+export { sumOfPerfectSquares };

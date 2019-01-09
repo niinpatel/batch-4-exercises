@@ -1,50 +1,50 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Nitin Patel",
+  "email": "nitinpatel278@gmail.com",
+  "batch": "4",
   "exercises": {
     "factorial": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-odd": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-even": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-triangle": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "counter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "counter-factory": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "limit-function-call-count": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "cache-function": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "apply-operator": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "boo-who": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-fibs": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-primes": {
@@ -52,7 +52,7 @@
       "rating": null
     },
     "rectangle-diagonal": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "three-sum": {

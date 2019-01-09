@@ -1,4 +1,4 @@
-import applyOperator from './applyOperator';
+import {applyOperator} from './applyOperator';
 
 describe('applyOperator', () => {
   test('should return 0 when no operands are specified', () => {

@@ -1,8 +1,16 @@
+function counterFactory() {
+  let count = 0;
 
-function counterFactory(...args) {
-  return args;
+  return {
+    increment: () => {
+      count += 1;
+      return count;
+    },
+    decrement: () => {
+      count -= 1;
+      return count;
+    },
+  };
 }
 
-export {
-  counterFactory,
-};
+export { counterFactory };
