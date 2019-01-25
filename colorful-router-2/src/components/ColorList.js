@@ -10,7 +10,6 @@ const ColorList = (props) => {
       <Link to={`/colors/${color.name}`}>{color.name}</Link>
     </li>
   ));
-
   return (
     <div className="App">
       <header className="App-header">

@@ -24,7 +24,9 @@ class NewColor extends Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    this.props.addColor({ ...this.state });
+
+    const { name, hex } = this.state;
+    this.props.addColor({ name, hex });
     this.setState(
       {
         changesSaved: true,
@@ -37,7 +39,7 @@ class NewColor extends Component {
     return (
       <div className="new-color">
         <Prompt
-          when={!this.state.changesSaved}
+          when={this.state.changesSaved === false}
           message="Are you sure you want to leave this page?"
         />
         <form onSubmit={this.handleSubmit}>
